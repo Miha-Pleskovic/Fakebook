@@ -1,0 +1,111 @@
+#menu {
+  position: fixed;
+  height: 2em;
+  width: 100%;
+  margin-top: -0.5em;
+  margin-left: -0.5em;
+  background-color: #0073a2;
+  z-index: 1;
+}
+
+.menu-button {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  float: right;
+  width: 5em;
+  height: 2.5em;
+  margin-top: -0.5em;
+}
+
+.menu-button:hover {
+  background-color: #004f6f;
+}
+
+#selected {
+  font-weight: bold;
+  text-shadow: 0em 0em 0.5em white;
+}
+
+img {
+  position: absolute;
+}
+      
+#head {
+  height: 7em;
+  width: 63em;
+  border-bottom: 0.3em solid black;
+  margin-left: 20em;
+}
+      
+#name {
+  font-size: 2em;
+  display: inline-block;
+  float: left;
+}
+        
+#logo {
+  font-size: 3em;
+  display: inline-block;
+  float: right;
+}
+        
+#desc {
+  height: 11em;
+  width: 49.4em;
+  margin: -1em 0em 2em 20em;
+  display: inline-block;
+  float: left;
+}
+        
+#stats {
+  height: 21em;
+  width: 15.6em;
+  font-size: 1.2em;
+  display: inline-block;
+  float: left;
+  margin-top: -1.2em;
+}
+
+ul li {
+  font-style: italic;
+}
+
+#other {
+  display: inline-block;
+  height: 25em;
+  width: 38em;
+  font-size: 1.3em;
+  margin: 10em 0em 0em -22.2em;
+  float: left;
+  position: absolute;
+}
+        
+#other img {
+  border: 0.1em solid black;
+  border-radius: 1em;
+  margin-left: 1em;
+}
+        
+#other img:hover {
+  border: 0.2em solid green;
+}
+        
+table {
+  margin-top: -2.8em;
+}
+        
+table tr td {
+  height: 120px;
+  width: 120px;
+  border-right: 1.5em solid white;
+  border-bottom: 1.5em solid white;
+}
+        
+#ads {
+  display: inline-block;
+  position: absolute;
+  height: 600px;
+  width: 160px;
+  margin: 0.2em 0em 0em 24em;
+}
